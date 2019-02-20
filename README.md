@@ -160,7 +160,7 @@
     }
     ```
 
-    As you can there is a lot going on. Fortunately, snarkjs conveniently provides a method to generate the transaction input parameters.
+    As you can there is a lot going on. Snarkjs conveniently provides a method to generate the transaction input parameters.
 
     ```bash
     snarkjs generatecall --proof=proof.json --public=public.json
@@ -183,7 +183,7 @@
 
 - **Deploying verifier contract:**
 
-    Use the MetaMask extension and connect to a testnet. I chose the Rinkeby testnet for this example.
+    Use the [MetaMask](https://metamask.io/) extension and connect to a testnet. I chose the Rinkeby testnet for this example.
 
     - Select *Injected Web3* as the environment.
     - Select the *Verifier* contract and click *Deploy*.
