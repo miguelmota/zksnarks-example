@@ -1,12 +1,2 @@
 node_modules
 .DS_Store
-
-circuit.circom
-circuit.json
-input.json
-proof.json
-proving_key.json
-verification_key.json
-witness.json
-verifier.sol
-public.json
