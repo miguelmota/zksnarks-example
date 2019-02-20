@@ -82,7 +82,7 @@
     - These signals are the witness.
     - The witness doesn't reveal any of the signals except the public inputs and the outputs.
 
-    We can calculate witness now:
+    We can calculate the witness now:
 
     ```bash
     snarkjs calculatewitness --circuit=circuit.circom --input=input.json
@@ -162,7 +162,7 @@
     }
     ```
 
-    As you can there is a lot going on. Snarkjs conveniently provides a method to generate the transaction input parameters.
+    As you can see there is a lot going on. Snarkjs conveniently provides a method to generate the transaction input parameters.
 
     ```bash
     snarkjs generatecall --proof=proof.json --public=public.json
@@ -205,16 +205,16 @@
 
 ## Additional
 
-- To show general statistics of this circuit, you can run:
+- To show general statistics of a circuit, you can run:
 
   ```bash
-  snarkjs printconstraints --circuit=circuit.json
+  snarkjs info --circuit=circuit.json
   ```
 
 - Print the constraints of the circuit by running:
 
   ```bash
-  snarkjs info --circuit=circuit.json
+  snarkjs printconstraints --circuit=circuit.json
   ```
 
 ## Resources
