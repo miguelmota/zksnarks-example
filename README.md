@@ -21,7 +21,7 @@
     We'll create a circuit that tries to prove we are able to factor a number.
 
     - The circuit will have 2 private inputs and 1 output.
-    - The output signal must be the value of signal a time signal b.
+    - The output signal `c` must be the value of signal `a` times signal `b`.
     - We instantiate the circuit and assign it to the main component. The component `main` must always exist.
 
     `circuit.circom`
@@ -36,6 +36,8 @@
 
     component main = Multiplier();
     ```
+
+    Ths only thing the circuit enforces is that `c` equals `a` times `b` with the statement `c <== a*b` which defines the constraint.
 
 - **Compile the circuit with circom:**
 
