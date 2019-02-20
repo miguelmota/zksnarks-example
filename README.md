@@ -219,6 +219,8 @@
 
 ## Resources
 
+- [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
+- [Awesome Zero Knowledge Proofs](https://github.com/gluk64/awesome-zero-knowledge-proofs)
 - [circom and snarkjs tutorial](https://iden3.io/blog/circom-and-snarkjs-tutorial2.html)
 
 ## License
