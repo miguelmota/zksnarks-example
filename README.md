@@ -1,6 +1,6 @@
 # zkSNARKs Example
 
-> An example of how generate zero-knowledge proofs and verify using an Ethereum smart contract.
+> An example of how generate [zero-knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof) and verify using an [Ethereum](https://www.ethereum.org/) smart contract.
 
 ## Tutorial
 
