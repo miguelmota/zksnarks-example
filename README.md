@@ -85,7 +85,7 @@
     We can calculate the witness now:
 
     ```bash
-    snarkjs calculatewitness --circuit=circuit.circom --input=input.json
+    snarkjs calculatewitness --circuit=circuit.json --input=input.json
     ```
 
     This generates `witness.json` with all the signals.
